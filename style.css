@@ -9,3 +9,12 @@ img {
     filter: drop-shadow(15px 15px 0 thistle);
 }
 
+h1 {
+    margin-right: 180px;
+}
+
+h2 {
+    margin-left: 190px;
+    padding-top: 5px;
+}
+
