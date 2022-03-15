@@ -4,5 +4,8 @@ body {
     text-align: center;
 }
 
-
+img {
+    height: 500px;
+    filter: drop-shadow(15px 15px 0 thistle);
+}
 
