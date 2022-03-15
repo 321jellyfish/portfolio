@@ -7,13 +7,12 @@ body {
 }
 
 .place-holder {
-    /*height: 500px;*/
-    width: 500px; 
+    width: 40%;
     background-color: aquamarine;
 }
 
 .place-holder-2 {
-    width: 300px;
+    width: 10%;
     background-color: lightsalmon;
 }
 
@@ -23,12 +22,12 @@ body {
 }
 
 h1 {
-    margin-right: 180px;
+    margin-right: 8%;
     font-size: xx-large;
 }
 
 h2 {
-    margin-left: 190px;
+    margin-left: 7%;
     padding-top: 5px;
 }
 
@@ -37,31 +36,11 @@ p {
 }
 
 .introduction {
-    margin: 50px;
+    margin: 2em;
     font-size: larger;
 }
 
-.first-project {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-left: 750px;
-    margin-right: 750px;
-    text-align: left;
-    margin-bottom: 50px;
-}
-
-.second-project {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-left: 750px;
-    margin-right: 750px;
-    text-align: left;
-    margin-bottom: 50px;
-}
-
-.third-project {
+.project-container {
     display: flex;
     gap: 30px;
     justify-content: center;
