@@ -4,17 +4,42 @@ body {
     text-align: center;
 }
 
-img {
+.place-holder {
+    /*height: 500px;*/
+    width: 500px; 
+    background-color: aquamarine;
+}
+
+.headshot {
     height: 500px;
     filter: drop-shadow(15px 15px 0 thistle);
 }
 
 h1 {
     margin-right: 180px;
+    font-size: xx-large;
 }
 
 h2 {
     margin-left: 190px;
     padding-top: 5px;
+}
+
+p {
+    font-size: larger;
+}
+
+.introduction {
+    margin: 50px;
+    font-size: larger;
+}
+
+.first-project {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 750px;
+    margin-right: 750px;
+    text-align: left;
 }
 
