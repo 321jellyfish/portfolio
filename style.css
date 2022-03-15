@@ -36,7 +36,8 @@ p {
 }
 
 .introduction {
-    margin: 2em;
+    margin: 3em;
+    margin-bottom: 5em;
     font-size: larger;
 }
 
@@ -44,20 +45,21 @@ p {
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin-left: 750px;
-    margin-right: 750px;
+    margin-left: 30%;
+    margin-right: 30%; 
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 3em;
 }
 
 h3 {
     font-size: x-large;
-    margin-left: 190px;
+    margin-top: 5em;
+    margin-left: 7%;
 }
 
 .contact-me {
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 15em;
     gap: 20px;
 }
