@@ -11,8 +11,8 @@ p {
 }
 
 .place-holder {
-    width: 10em;
-    height: 10em;
+    width: 5em;
+    height: 5em;
     /* min-width: 200px; */
     background-color: aquamarine;
 }
@@ -24,9 +24,10 @@ p {
 }
 
 .place-holder-2 {
-    width: 10%;
-    height: 200px;
-    min-width: 200px;
+    /* width: 10%; */
+    width: 10em;
+    height: 5em;
+    /* min-width: 5px; */
     background-color: lightsalmon;
 }
 
@@ -58,9 +59,9 @@ p {
 .project-container {
     display: flex;
     gap: 30px;
-    justify-content: center;
-    margin-left: 30%;
-    margin-right: 30%; 
+    /* justify-content: center; */
+    margin-left: 35%;
+    /* margin-right: 30%;  */
     text-align: left;
     margin-bottom: 3em;
 }
@@ -80,4 +81,10 @@ h3 {
 
 .project-section {
     text-align: left;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
