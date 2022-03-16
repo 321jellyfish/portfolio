@@ -41,7 +41,7 @@ p {
 }*/
 
 .headshot {
-    height: 500px;
+    height: 300px;
     filter: drop-shadow(15px 15px 0 thistle);
 }
 
@@ -60,21 +60,34 @@ p {
 }
 
 .introduction {
-    margin: 3em;
-    margin-bottom: 5em;
+    margin: 2em;
+    margin-bottom: 2em;
     font-size: larger;
+    text-align: center;
 }
 
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     /* justify-content: center; */
+    /* margin-left: 30%; */
+    margin: auto;
     margin-left: 30%;
+    justify-content: left;
     /* margin-right: 30%;  */
     text-align: left;
     margin-bottom: 3em;
     background-color: rgb(127, 255, 212, 0.5);
     padding: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-container {
+        margin: auto;
+        margin-bottom: 2em;
+        justify-content: center;
+    }
 }
 
 h3 {
