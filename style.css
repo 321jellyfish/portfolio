@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-size: 40px 40px;
     /* background-image: radial-gradient(circle, lightgray 1px, rgba(0, 0, 0, 0) 1px); */
-    /* background-color: floralwhite; */
+    background-color: floralwhite;
 }
 
 p {
@@ -15,7 +15,6 @@ p {
     width: 15em;
     height: 15em;
     border: 6px solid lightgray;
-    /* border: 5px solid aquamarine; */
 }
 
 
@@ -23,7 +22,6 @@ p {
  .place-holder { 
     width: 5em;
     height: 5em;
-    /* min-width: 200px; */
     background-color: aquamarine;
 }
 
@@ -32,14 +30,6 @@ p {
     height: 200px;
     border: 5px aquamarine solid;
 }
-
-/*.place-holder-2 {
-    width: 10%;
-    width: 10em;
-    height: 5em;
-    min-width: 5px;
-    background-color: lightsalmon;
-}*/
 
 .headshot {
     height: 300px;
@@ -71,11 +61,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    /* justify-content: center; */
-    /* margin-left: 30%; */
     margin: auto;
     justify-content: center;
-    /* margin-right: 30%;  */
     text-align: left;
     margin-bottom: 2em;
     background-color: rgb(127, 255, 212, 0.5);
@@ -89,10 +76,6 @@ p {
         justify-content: left;
     }
 }
-
-
-
-
 
 h3 {
     font-size: x-large;
