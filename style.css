@@ -4,6 +4,7 @@ body {
     text-align: center;
     /* background-size: 40px 40px; */
     /* background-image: radial-gradient(circle, lightgray 1px, rgba(0, 0, 0, 0) 1px); */
+    background-color: floralwhite;
 }
 
 p {
@@ -13,7 +14,7 @@ p {
 .love-calculator {
     width: 15em;
     height: 15em;
-    border: 10px solid aquamarine;
+    /* border: 5px solid aquamarine; */
 }
 
 
@@ -31,13 +32,13 @@ p {
     border: 5px aquamarine solid;
 }
 
-.place-holder-2 {
-    /* width: 10%; */
+/*.place-holder-2 {
+    width: 10%;
     width: 10em;
     height: 5em;
-    /* min-width: 5px; */
+    min-width: 5px;
     background-color: lightsalmon;
-}
+}*/
 
 .headshot {
     height: 500px;
@@ -72,6 +73,8 @@ p {
     /* margin-right: 30%;  */
     text-align: left;
     margin-bottom: 3em;
+    background-color: rgb(127, 255, 212, 0.5);
+    padding: 2em;
 }
 
 h3 {
@@ -97,3 +100,7 @@ h3 {
     gap: 2em;
 }
 
+ul {
+    background-color: lightsalmon;
+    padding: 2em;
+}
