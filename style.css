@@ -104,3 +104,8 @@ ul {
     background-color: lightsalmon;
     padding: 2em;
 }
+
+footer {
+    margin: 2em;
+    font-style: italic;
+}
