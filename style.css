@@ -2,9 +2,9 @@ body {
     font-family: 'Lora', serif;
     font-weight: 500;
     text-align: center;
-    /* background-size: 40px 40px; */
+    background-size: 40px 40px;
     /* background-image: radial-gradient(circle, lightgray 1px, rgba(0, 0, 0, 0) 1px); */
-    background-color: floralwhite;
+    /* background-color: floralwhite; */
 }
 
 p {
@@ -14,6 +14,7 @@ p {
 .love-calculator {
     width: 15em;
     height: 15em;
+    border: 6px solid lightgray;
     /* border: 5px solid aquamarine; */
 }
 
@@ -73,22 +74,25 @@ p {
     /* justify-content: center; */
     /* margin-left: 30%; */
     margin: auto;
-    margin-left: 30%;
-    justify-content: left;
+    justify-content: center;
     /* margin-right: 30%;  */
     text-align: left;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     background-color: rgb(127, 255, 212, 0.5);
     padding: 2em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .project-container {
-        margin: auto;
-        margin-bottom: 2em;
-        justify-content: center;
+        margin-left: 30%;
+        margin-bottom: 3em;
+        justify-content: left;
     }
 }
+
+
+
+
 
 h3 {
     font-size: x-large;
