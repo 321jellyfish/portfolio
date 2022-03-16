@@ -7,10 +7,6 @@ body {
     background-color: floralwhite;
 }
 
-p {
-    text-align: left;
-}
-
 .love-calculator {
     width: 15em;
     height: 15em;
@@ -48,6 +44,7 @@ h2 {
 
 p {
     font-size: larger;
+    text-align: center;
 }
 
 .introduction {
@@ -79,20 +76,19 @@ p {
 
 h3 {
     font-size: x-large;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-left: 7%;
 }
 
 .contact-me {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15em;
-    gap: 20px;
+    margin: auto;
+    margin-bottom: 4em;
+    text-align: center;
 }
 
-.project-section {
+/*.project-section {
     text-align: left;
-}
+}*/
 
 .project-text {
     display: flex;
@@ -103,6 +99,8 @@ h3 {
 ul {
     background-color: lightsalmon;
     padding: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 footer {
