@@ -99,10 +99,14 @@ h3 {
 }
 
 ul {
-    background-color: lightsalmon;
+    background-color: rgb(255, 160, 122, 0.5);
     padding: 2em;
-    margin-left: 30%;
-    margin-right: 30%;
+    /* margin-left: 30%; */
+    /* margin-right: 30%; */
+}
+
+li {
+    list-style: none;
 }
 
 footer {
