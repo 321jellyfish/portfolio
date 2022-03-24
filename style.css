@@ -27,7 +27,8 @@ body {
 
 .headshot {
     height: 300px;
-    filter: drop-shadow(15px 15px 0 rgb(216, 191, 216, 0.75));
+    /* border: solid rgb(216, 191, 216, 0.75) 20px; */
+    /* filter: drop-shadow(15px 15px 0 rgb(216, 191, 216, 0.75)); */
 }
 
 h1 {
@@ -117,4 +118,30 @@ footer {
     margin: 2em;
     margin-top: 0;
     font-style: italic;
+}
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.headshot-and-text {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 0.4em;
+}
+
+.horizontal-text{
+    letter-spacing: 0.8em;
+}
+
+.coloured-text {
+    color: gray
 }
