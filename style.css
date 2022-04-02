@@ -143,6 +143,11 @@ h1 {
     letter-spacing: 0.8em;
 }
 
+.vertical-text,
+.horizontal-text {
+    /* font-size:x-large; */
+}
+
 #first-name {
     margin-right: 60px;
     margin-bottom: 7px;
