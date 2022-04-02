@@ -37,20 +37,24 @@ h1 {
     font-size: xx-large;
 }
 
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h2 {
     /* margin-left: 7%; */
     padding-top: 5px;
 }
 
 p {
-    font-size: larger;
+    font-size: large;
     text-align: center;
 }
 
 .introduction {
     margin: 2em;
     margin-bottom: 2em;
-    font-size: larger;
+    font-size: large;
     text-align: center;
 }
 
