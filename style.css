@@ -28,22 +28,18 @@ body {
 
 .headshot {
     height: 300px;
-    /* border: solid rgb(216, 191, 216, 0.75) 20px; */
-    /* filter: drop-shadow(15px 15px 0 rgb(216, 191, 216, 0.75)); */
 }
 
 h1 {
-    /* margin-right: 8%; */
     font-size: xx-large;
+}
+
+h2 {
+    padding-top: 5px;
 }
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
-}
-
-h2 {
-    /* margin-left: 7%; */
-    padding-top: 5px;
 }
 
 p {
@@ -62,7 +58,6 @@ p {
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 30px; */
     margin: auto;
     justify-content: center;
     text-align: left;
@@ -70,6 +65,7 @@ p {
     background-color: rgb(127, 255, 212, 0.5);
     padding: 2em;
 }
+
 
 /*
 @media only screen and (min-width: 768px) {
@@ -83,7 +79,6 @@ p {
 h3 {
     font-size: larger;
     margin-top: 0; 
-    /* margin-left: 7%; */
 }
 
 .contact-me {
@@ -106,14 +101,9 @@ h3 {
 .project-text {
     display: flex;
     flex-direction: column;
-    /* gap: 2em; */
 }
 
 ul {
-    /* background-color: rgb(255, 160, 122, 0.5); */
-    /* padding: 2em; */
-    /* margin-left: 30%; */
-    /* margin-right: 30%; */
     padding-left: 0px;
 }
 
@@ -160,11 +150,6 @@ h1 {
 
 .horizontal-text{
     letter-spacing: 0.8em;
-}
-
-.vertical-text,
-.horizontal-text {
-    /* font-size:x-large; */
 }
 
 #first-name {
