@@ -142,6 +142,26 @@ h1 {
     letter-spacing: 0.8em;
 }
 
+#first-name {
+    margin-right: 60px;
+    margin-bottom: 7px;
+}
+
+#second-name {
+    margin-bottom: 60px;
+    margin-right: 7px;
+}
+
+#software-header {
+    margin-top: 7px;
+    margin-left: 100px;
+}
+
+#developer-header {
+    margin-top: 35px;
+    margin-left: 7px;
+}
+
 .coloured-text {
-    color: gray
+    color: gray;
 }
